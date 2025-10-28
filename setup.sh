@@ -3,7 +3,7 @@
 set -e
 
 DOTFILES_DIR="$HOME/.local/share/dotfiles"
-REPO_URL="https://github.com/Maciejonos/dotfiles.git"
+REPO_URL="https://github.com/Maciejonos/niri-setup.git"
 
 echo "=============="
 echo "Dotfiles Setup"
@@ -14,7 +14,7 @@ echo
 if [ -d "$DOTFILES_DIR" ]; then
     echo "ERROR: $DOTFILES_DIR already exists!"
     echo "If you want to reinstall, please remove or backup the existing directory first:"
-    echo "  mv ~/.local/share/dotfiles ~/.local/share/dotfiles.backup"
+    echo "  mv ~/.local/share/niri-setup ~/.local/share/dotfiles.backup"
     exit 1
 fi
 
